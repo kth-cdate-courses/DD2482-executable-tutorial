@@ -8,4 +8,9 @@ nvm use 20 -y
 echo "Installting dependencies..."
 cd server/app && npm install
 
-echo "All done, yeay!"
+# Create incomplete files
+touch Dockerfile
+touch .github/workflows/deploy.yml
+
+echo "All done!"
+echo "You'll be working in two files: `Dockerfile` and `.github/workflows/deploy.yml`"
