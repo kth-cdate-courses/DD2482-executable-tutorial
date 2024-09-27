@@ -3,7 +3,8 @@
   "description": "Let users copy or exec code blocks",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "foreground": "assets/run.sh"
     },
     "steps": [
       {
