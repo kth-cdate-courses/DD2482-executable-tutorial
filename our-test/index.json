@@ -12,14 +12,8 @@
     ],
     "assets": {
       "host01": [
-        { "file": "app/.gitignore", "target": "server/.gitignore" },
-        { "file": "app/index.mjs", "target": "server/index.mjs" },
-        { "file": "app/package.json", "target": "server/package.json" },
-        {
-          "file": "app/package-lock.json",
-          "target": "server/package-lock.json"
-        },
-        { "file": "run.sh", "target": "server/run.sh", "chmod": "+x" }
+        { "file": "app/*", "target": "server" },
+        { "file": "run.sh", "target": "server", "chmod": "+x" }
       ]
     }
   },
