@@ -1,50 +1,17 @@
-### Single line code blocks can be copied by default
+# Containerizing your application
 
-`copy me`
+- first, create the Dockerfile
 
-### It can also be disabled
+## Build the Docker file
 
-`copying disabled`{{}}
-
-### Execute a command per click
-
-`ls -lh`{{exec}}
-
-### Send Ctrl+c before execute
-
-Run a blocking command:
-`sleep 1d`{{exec}}
-
-End it and run another:
-`whoami`{{exec interrupt}}
-
-### Copy multiline code block
-
-````
-uname -r
-pwd
-```{{copy}}
-
-### Execute multiline code block
-
-````
-
-uname -r
-pwd
-
-```{{exec}}
-
-
-### Execute multiline code block with Ctrl+c
-Run a blocking command:
-`sleep 1d`{{exec}}
-
-End it and run others:
+```bash
+docker build -t myapp .
 ```
 
-uname -r
-whoami
+## Run the Docker container
 
-```{{exec interrupt}}
-
+```bash
+docker run -p 127.0.0.1:80:80/tcp -t executable-tutorial
 ```
+
+You should now see a message `Listening on port 80`, try to interact with the server! Run `curl http://127.0.0.1:80` to see the response.
