@@ -1,0 +1,3 @@
+Before we get going with the containerization, lets familiarize ourselves with the application. If you run `ls` in the terminal you should see that you have a couple of files. For us `Dockerfile` and the directory `server` is relevant. In this step, lets go into the server and check the files. Open the file called `ìndex.mjs`, this is the entrypoint of the application and you're going to see that we're listening for a single route, the root route. This route will return a simple Hello world message with the current time.
+
+Now that we know what we're working with, lets go back one level, to the folder with the Dockerfile and continue...
