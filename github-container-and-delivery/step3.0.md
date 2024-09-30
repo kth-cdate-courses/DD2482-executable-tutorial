@@ -1,6 +1,6 @@
 # Setup Github Actions
 
-First, create the Github Action. It can either be created in GitHub.com, under your repo > Actions or create the file in `.github\workflows\deploy.yml`The following is a template for your GitHub Action:
+First, create the Github Action. It can either be created in GitHub.com, under your repo > Actions or create the file in `server\.github\workflows\deploy.yml`The following is a template for your GitHub Action:
 
 ```yml
 name: Deploy to ghcr.io
