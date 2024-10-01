@@ -1,6 +1,6 @@
 # Setup Github Actions
 
-The final step is to use Docker BuildX to build and push to GHCR. This step requires four `with`-clauses: `context`, `platforms`, `push` and `tags`. Context will in this case be `.`, platforms `linux/amd64` and `push` `true`. The attribute `tags` should be a link to GHCR, on the following format: `ghcr.io/<owner>/<repo>:latest,ghcr.io/<owner>/<repo>:${{ github.sha }}` 
+The final step is to use Docker BuildX to build and push to GHCR. This step requires four `with`-clauses: `context`, `platforms`, `push` and `tags`. Context will in this case be `.`, platforms `linux/amd64` and `push` `true`. The attribute `tags` should be a link to GHCR, on the following format: `ghcr.io/<owner>/<repo>:latest,ghcr.io/<owner>/<repo>:${{ github.sha }}`. `<owner>` should be changed to the repository owner and `<repo>` to the repository name, in lower case.
 
 The entire step can be found below.
 
