@@ -33,7 +33,16 @@
         "text": "step3.1.md"
       },
       {
-        "text": "step3.2.md",
+        "text": "step3.2.md"
+      },
+      {
+        "text": "step3.3.md"
+      },
+      {
+        "text": "step3.4.md"
+      },
+      {
+        "text": "step3.5.md",
         "verify": "step3.2.verify.sh"
       }
     ],

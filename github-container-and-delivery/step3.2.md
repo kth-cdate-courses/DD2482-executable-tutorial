@@ -1,5 +1,12 @@
 # Setup Github Actions
 
-Now, perform some change in the server code, like changing the print statement or similar. Add, commit and push these changes. Doing this should trigger the GitHub action which adds the container to the GitHub Container Registry [GHCR]. 
+The next step is to set up Docker BuildX. It is a more modern version of `docker build`.
+ 
 
-Create a file `URL.txt` in the folder above `server`. Copy the URL to your container in GHCR into URL.txt and press validate. The URL be to ghcr.io. 
+Building a Docker image can be done by using 
+
+```yml
+- name: Setup Docker BuildX 
+  uses: docker/setup-buildx-action@v3
+```
+
