@@ -2,9 +2,8 @@
 
 ## Github
 
-Now that we have a working application inside our container let's continue. Before we can upload it, we first need to create a GitHub repository. GitHub has a so called container store where you can upload your container images. This is called ghcr.io. But before we can upload anything to here, we first need to create a repository, make sure to make it `Public`, this is very important for the script to be able to check the registry.
+Now that we have a working application inside our container let's continue. Before we can upload it, we first need to create a GitHub repository ([here](https://github.com/new)). GitHub has a so called container store where you can upload your container images. This is called [ghcr.io](https://ghcr.io). But before we can upload anything to here, we first need to create a repository, make sure to make it `Public`, this is very important for the script to be able to check the registry.
 
-![Image 1](../github-container-and-delivery/assets/img_1.png)
 ![Image 2](../github-container-and-delivery/assets/img_2.png)
 
 To link this properly you need to do the following:
