@@ -12,6 +12,8 @@ git remote add origin <your-repo-url>
 git push -u origin main
 ```
 
+An example of a repository URL is `https://github.com/kth-cdate-courses/DD2482-executable-tutorial-trial-run`
+
 When the code is uploaded, we're ready to proceed!
 
 Note that you can have multiple terminal tabs open in Killercoda.
